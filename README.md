@@ -14,6 +14,18 @@ chmod +x ./*.sh
 ./podman-install-rancher.sh
 ```
 
+螢幕輸出 :
+```
+Install Rancher ok
+Login Rancher ok
+Change Rancher password ok
+Please copy the following token:
+token-dnxp9:dmls9wcdb7gv4pw5hc9ck5ghp8jp6n4fsnxjrsd49797ddnwl92bmj
+
+Configure Rancher server-url ok
+```
+
+
 ### 4. ssh kube-kadm
 ```
 ssh bigred@172.22.1.11 -p 22100
