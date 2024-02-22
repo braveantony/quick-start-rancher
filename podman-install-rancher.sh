@@ -46,5 +46,3 @@ echo -e "${APITOKEN}\n"
 RANCHER_SERVER="${URL}"
 curl -s "https://${URL}/v3/settings/server-url" -H 'content-type: application/json' -H "Authorization: Bearer $APITOKEN" -X PUT --data-binary '{"name":"server-URL","value":"'https://$RANCHER_SERVER'"}' --insecure &> /dev/null
 [[ "$?" == "0" ]] && echo "Configure Rancher server-url ok"
-
-token-5qtrf:br6dz8lbcvc9gt5gkrcr7pwm7tl98dgltbxhkg24px68vsdsctpzjz
